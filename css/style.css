@@ -1,0 +1,197 @@
+*, li, ul, div, main, section, article, nav, header, img, footer {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.wallpaper {
+  position: absolute;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+  background: url(../img/daniel-olah-tVMOgzEVBi0-unsplash.jpg) no-repeat center center fixed;
+  /* Foto de <a href="https://unsplash.com/@danesduet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Olah</a> en <a href="https://unsplash.com/es/images/stock/4k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*/
+  background-size: cover;
+  transform: rotateY(180deg);
+}
+
+.indexHeader a {
+  text-decoration: none;
+  color: white;
+}
+.indexHeader a:hover {
+  color: white;
+}
+.indexHeader h1 {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 54px;
+  padding-top: 60px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.indexHeader nav ul {
+  padding-top: 30vh;
+}
+.indexHeader nav ul li {
+  padding-left: 50px;
+  list-style: none;
+  text-shadow: 2px 2px black;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.indexHeader nav ul li div {
+  display: inline-block;
+  transition: font-size 0.5s;
+  border-radius: 4px;
+  padding-left: 25px;
+}
+.indexHeader nav ul li div:hover {
+  color: white;
+  padding-left: 30px;
+  padding-right: 25px;
+  font-size: 50px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.644) 60%);
+}
+
+.absoluteFooter {
+  position: absolute;
+}
+
+.blockFooter {
+  position: block;
+}
+
+footer {
+  background-color: #252525;
+  color: white;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  min-height: 30px;
+  padding-top: 3px;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+@media screen and (min-height: 800px) {
+  .indexFooter {
+    position: absolute;
+  }
+}
+.mainCard {
+  margin: 1.5rem;
+  width: 85%;
+}
+
+.profilePicture {
+  margin-top: 30px;
+  width: 75%;
+}
+
+@media screen and (min-width: 900px) {
+  .profilePicture {
+    width: 40%;
+  }
+}
+.card {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.galeria {
+  margin: 40px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.galeria img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 30px;
+  transition: transform 0.5s;
+}
+.galeria img:hover {
+  transform: scale(1.8);
+  object-fit: contain;
+}
+
+.tableM {
+  margin: 10vh;
+}
+
+.contactDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationText {
+  font-size: 24px;
+  margin: 50px 15px 50px 15px;
+}
+
+.locationMap {
+  display: flex;
+  justify-content: center;
+}
+.locationMap img {
+  display: none;
+  width: 250px;
+}
+.locationMap iframe {
+  margin-left: 90px;
+}
+
+@media (max-width: 1600px) {
+  .contactDiv {
+    display: block;
+  }
+}
+@media (max-width: 830px) {
+  .locationMap img {
+    display: block;
+  }
+  .locationMap iframe {
+    display: none;
+  }
+}
+button {
+  padding: 5px;
+}
+
+.reviewCar {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.carLi {
+  margin: 90px;
+}
+.carLi h4, .carLi p {
+  margin: 20px;
+}
+
+@media screen and (min-width: 900px) {
+  .carLi {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

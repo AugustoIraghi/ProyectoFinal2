@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Ojo Critico</title>
+    <!-- Favicon -->
+    <link rel="icon" href="../img/favicon.png" type="image/x-icon">
+    <!-- Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">El Ojo Critico</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/reviews.html">Reviews</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../pages/contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+              <div class="card mx-auto mainCard" id="fcf-form">
+                <h3 class="fcf-h3 m-4">Contact</h3>
+                <div class="contactDiv">
+                  <div class="locationText">
+                    <div>
+                      Effnerstrasse 18
+                      85764 Oberschleissheim
+                    </div>
+                    <div>
+                      Museumsinsel 1
+                      80538 Munich
+                    </div>
+                    <div>
+                      Am Bavariapark 5
+                      80339 Munich
+                    </div>
+                  </div>
+                  <div class="locationMap">
+                    <img src="../img/map.png" alt="">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2656.98656769483!2d11.551460269900055!3d48.24538601259777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7111ca98b217%3A0x13f61613d5c094c9!2sDeutsches%20Museum%20Flugwerft%20Schleissheim!5e0!3m2!1ses-419!2sar!4v1669075142095!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div>
+                <form id="fcf-form-id" class="fcf-form-class m-4" method="post" action="contact-form-process.php">
+                        
+                  <div class="fcf-form-group">
+                      <label for="Name" class="fcf-label">Your name</label>
+                      <div class="fcf-input-group">
+                          <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                      </div>
+                  </div>
+          
+                  <div class="fcf-form-group">
+                      <label for="Email" class="fcf-label">Your email address</label>
+                      <div class="fcf-input-group">
+                          <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                      </div>
+                  </div>
+          
+                  <div class="fcf-form-group">
+                      <label for="Message" class="fcf-label">Your message</label>
+                      <div class="fcf-input-group">
+                          <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                      </div>
+                  </div>
+          
+                  <div class="fcf-form-group">
+                      <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+                  </div>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <ul class="footer__div__ul">
+                <li>Email: patriciogustavo@mail.com</li>
+                <li>Telefono: 11 7373 9090</li>
+                <li>©1998-2015 All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

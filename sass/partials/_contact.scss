@@ -1,0 +1,39 @@
+.contactDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.locationText{
+    font-size: 24px;
+    margin: 50px 15px 50px 15px;
+}
+.locationMap{
+    display: flex;
+    justify-content: center;
+    img{
+        display: none;
+        width: 250px;
+        ;
+    }
+    iframe{
+        margin-left: 90px;
+    }
+}
+@media(max-width: 1600px){
+    .contactDiv{
+        display: block;
+    }
+}
+@media(max-width: 830px){
+    .locationMap{
+        img{
+            display: block;
+        }
+        iframe{
+            display: none;
+        }
+    }
+}
+button{
+    padding: 5px;
+}

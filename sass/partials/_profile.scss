@@ -1,0 +1,22 @@
+.mainCard{
+    margin: 1.5rem;
+    width: 85%;
+}
+.profilePicture{
+    margin-top: 30px;
+    width: 75%;
+}
+@media screen and (min-width: 900px){
+    .profilePicture{
+        width: 40%;
+    }
+}
+.card{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.navbar-brand{
+    font-family: 'Cinzel Decorative', cursive;
+}

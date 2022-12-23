@@ -1,0 +1,16 @@
+.reviewCar{
+    width: 15rem;
+    height: 15rem;
+    object-fit:cover;
+}
+.carLi{
+    margin:90px;
+    h4,p{
+        margin: 20px;
+    }
+}
+@media screen and (min-width: 900px) {
+    .carLi{
+        display: flex;
+    }
+}
